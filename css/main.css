@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f2aaff;
+  background: #7db1d0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2996,4 +2996,8 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+body {
+  background: url("/images/timg.jpeg");
+  background-attachment: fixed;
 }
