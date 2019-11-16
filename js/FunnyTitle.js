@@ -4,12 +4,12 @@
  document.addEventListener('visibilitychange', function () {
      if (document.hidden) {
          $('[rel="icon"]').attr('href', "/img/trhx2.png");
-         document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！';
+         document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！ヽ(●-`Д´-)ノ你丑你就走！';
          clearTimeout(titleTime);
      }
      else {
         $('[rel="icon"]').attr('href', "/img/trhx2.png");
-        document.title = 'ヽ(●-`Д´-)ノ你丑你就走！';
+        document.title = 'ヾ(Ő∀Ő3)ノ你帅就回来！';
         clearTimeout(titleTime);
      }ヽ(●-`Д´-)ノ你丑你就走
  });
