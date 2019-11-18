@@ -446,7 +446,7 @@ footer .iconfont {
   transition: all 0.2s ease-in-out;
 }
 ::-webkit-scrollbar {
-  background-color: #a085d9;
+  background-color: #F8F8FF;
   width: 10px;
   height: 10px;
   background-clip: padding-box;
@@ -455,12 +455,12 @@ footer .iconfont {
   display: none;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #fe4365;
+  background-color: #a085d9;
   border-radius: 5px;
   background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
 }
 ::-webkit-scrollbar-corner {
-  background-color: #fe4365;
+  background-color: #a085d9;
 }
 @-moz-keyframes scroll-down {
   0% {
