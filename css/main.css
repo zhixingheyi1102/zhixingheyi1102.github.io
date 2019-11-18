@@ -76,10 +76,10 @@ body a:hover {
   color: white;
 }
 .top-nav-collapse {
-  background-color: #fc9d9a;
+  background-color: #0b1a3a;
 }
 .navbar-col-show {
-  background-color: #fc9d9a;
+  background-color: #0b1a3a;
 }
 @media (max-width: 768px) {
   .navbar {
@@ -446,7 +446,7 @@ footer .iconfont {
   transition: all 0.2s ease-in-out;
 }
 ::-webkit-scrollbar {
-  background-color: #fec9c9;
+  background-color: #a085d9;
   width: 10px;
   height: 10px;
   background-clip: padding-box;
