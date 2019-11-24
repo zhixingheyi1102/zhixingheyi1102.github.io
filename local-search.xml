@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>js中的面向对象</title>
+    <link href="/2019/11/24/js%E4%B8%AD%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
+    <url>/2019/11/24/js%E4%B8%AD%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="类的创建"><a href="#类的创建" class="headerlink" title="类的创建"></a>类的创建</h1><p>使用构造函数的方法创建类，类的名称首字母一般大写。<br>    function 类名（形参）<br>    {<br>        this.属性名=值；//<em>用this指向实例对象</em><br>        ······<br>    }</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>hello-world</title>
     <link href="/2019/11/10/hello-world/"/>
     <url>/2019/11/10/hello-world/</url>
