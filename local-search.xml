@@ -8,7 +8,7 @@
     <link href="/2019/11/24/js%E4%B8%AD%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
     <url>/2019/11/24/js%E4%B8%AD%E7%9A%84%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
     
-    <content type="html"><![CDATA[<h1 id="类的创建"><a href="#类的创建" class="headerlink" title="类的创建"></a>类的创建</h1><p>使用构造函数的方法创建类，类的名称首字母一般大写。<br>    function 类名（形参）<br>    {<br>        this.属性名=值；//<em>用this指向实例对象</em><br>        ······<br>    }</p><h1 id="类的实例化————创建对象"><a href="#类的实例化————创建对象" class="headerlink" title="类的实例化————创建对象"></a>类的实例化————创建对象</h1><p>+对象的种类<br>1.内建对象<br>  类似c中的库函数，由js提供，可直接调用，如math，string，date。<br>2.宿主对象<br>  由js的运行环境提供的对象，如bom,dom。<br>3.自建对象<br>  自定义创建，往里添加属性的对象。<br>+创建方法<br>1.调用类（构造函数）<br>    var obj=new 类名（）；<br>2.字面量形式<br>    var obj=<br>    {<br>        名：值，* 注意：和，的使用*<br>        名：值  * 最后一行不加，*<br>    }；</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="类的创建"><a href="#类的创建" class="headerlink" title="类的创建"></a>类的创建</h1><p>   使用构造函数的方法创建类，类的名称首字母一般大写。</p><pre><code>    function 类名（形参）    {    this.属性名=值；//*用this指向实例对象*    ······    }</code></pre><h1 id="类的实例化——对象"><a href="#类的实例化——对象" class="headerlink" title="类的实例化——对象"></a>类的实例化——对象</h1><ul><li><p>对象的本质<br>对象的本质是一个地址，指向某块空间，其中存放着不同的属性。</p></li><li><p>对象的种类<br>1.内建对象<br>类似c中的库函数，由js提供，可直接调用，如math，string，date。<br>2.宿主对象<br>由js的运行环境提供的对象，如bom,dom。<br>3.自建对象<br>自定义创建，往里添加属性的对象。</p></li><li><p>创建方法<br>1.调用类（构造函数）</p><pre><code>var obj=new 类名（）；</code></pre><p>2.字面量形式</p><pre><code>var obj={名：值，*注意：和，的使用*名：值  *最后一行不加，*}；</code></pre><p>两种方式的最终效果相同，但以字面量形式创建较简洁，而使用构造函数则可以向内添加变量，常用于工厂化创建对象。</p></li><li><p>对象的属性</p></li></ul>]]></content>
     
     
     
